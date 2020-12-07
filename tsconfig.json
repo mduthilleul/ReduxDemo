@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "jsx": "react-native",
+    "lib": ["dom", "esnext"],
+    "target": "ES6",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "matera/src/*": ["src/*"]
+    },
+    "strictNullChecks": true
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules"]
+}
